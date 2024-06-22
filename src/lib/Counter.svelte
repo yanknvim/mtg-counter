@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let rotate = false;
-	let life = 20;
+	export let life = 20;
 
 	const increaseLife = () => life += 1;
 	const decreaseLife = () => {
