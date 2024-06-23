@@ -8,9 +8,9 @@
 	};
 </script>
 
-<div class="container h-full bg-accent text-accent-content rounded-xl" class:max-md:rotate-180={rotate}>
+<div class="container h-full bg-teal-400 text-accent-content rounded-xl" class:max-md:rotate-180={rotate}>
 	<div class="flex h-full">
-		<button class="flex-1 active:bg-white text-3xl flex items-center justify-center" on:click={decreaseLife}>
+		<button class="flex-1 active:bg-teal-200 text-3xl flex items-center justify-center rounded-l-xl" on:click={decreaseLife}>
 			-
 		</button>
 
@@ -18,7 +18,7 @@
 			{life}
 		</span>
 
-		<button class="flex-1 active:bg-white text-3xl flex items-center justify-center" on:click={increaseLife}>
+		<button class="flex-1 active:bg-teal-200 active:bg-white text-3xl flex items-center justify-center rounded-r-xl" on:click={increaseLife}>
 			+
 		</button>
 	</div>
