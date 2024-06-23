@@ -8,17 +8,17 @@
 	};
 </script>
 
-<div class="container h-full bg-sky-200 rounded-xl" class:max-md:rotate-180={rotate}>
-	<div class="flex h-full items-stretch">
-		<button class="flex-1 active:bg-sky-100 text-3xl flex items-center justify-center select-none" on:click={decreaseLife}>
+<div class="container h-full bg-accent text-accent-content rounded-xl" class:max-md:rotate-180={rotate}>
+	<div class="flex h-full">
+		<button class="flex-1 active:bg-white text-3xl flex items-center justify-center" on:click={decreaseLife}>
 			-
 		</button>
 
-		<div class="flex-1 text-center text-6xl font-bold flex items-center justify-center">
+		<span class="flex-1 text-6xl font-bold flex items-center justify-center">
 			{life}
-		</div>
+		</span>
 
-		<button class="flex-1 active:bg-sky-100 text-3xl flex items-center justify-center select-none" on:click={increaseLife}>
+		<button class="flex-1 active:bg-white text-3xl flex items-center justify-center" on:click={increaseLife}>
 			+
 		</button>
 	</div>
