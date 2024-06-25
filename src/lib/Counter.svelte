@@ -18,7 +18,7 @@
 			{life}
 		</span>
 
-		<button class="flex-1 active:bg-teal-200 active:bg-white text-3xl flex items-center justify-center rounded-r-xl" on:click={increaseLife}>
+		<button class="flex-1 active:bg-teal-200 text-3xl flex items-center justify-center rounded-r-xl" on:click={increaseLife}>
 			+
 		</button>
 	</div>
