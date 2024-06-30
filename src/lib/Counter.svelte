@@ -3,9 +3,7 @@
 	export let life = 20;
 
 	const increaseLife = () => life += 1;
-	const decreaseLife = () => {
-		if (life > 0) life -= 1
-	};
+	const decreaseLife = () => life -= 1;
 </script>
 
 <div class="container h-full bg-teal-400 text-accent-content rounded-xl" class:max-md:rotate-180={rotate}>
